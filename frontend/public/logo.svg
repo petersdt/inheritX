@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Outer shield — sharp, geometric -->
+  <path d="M256 28L464 124V272C464 388 372 472 256 496C140 472 48 388 48 272V124L256 28Z"
+    fill="url(#shield-fill)" stroke="url(#shield-stroke)" stroke-width="8"/>
+
+  <!-- Inner shield layer — depth -->
+  <path d="M256 68L424 148V276C424 372 344 444 256 464C168 444 88 372 88 276V148L256 68Z"
+    fill="rgba(0,212,232,0.03)" stroke="rgba(0,212,232,0.12)" stroke-width="3"/>
+
+  <!-- Central lock keyhole — inheritance vault concept -->
+  <circle cx="256" cy="220" r="44" stroke="#00d4e8" stroke-width="10" fill="none"/>
+  <circle cx="256" cy="220" r="16" fill="#00d4e8" opacity="0.9"/>
+
+  <!-- Lock body / vault door -->
+  <rect x="216" y="252" width="80" height="68" rx="10"
+    stroke="#00d4e8" stroke-width="8" fill="rgba(0,212,232,0.06)"/>
+
+  <!-- Keyhole slot -->
+  <path d="M256 272V296" stroke="#00d4e8" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Subtle hex accents — FHE theme -->
+  <path d="M148 180L136 160L148 140L172 140L184 160L172 180Z"
+    stroke="rgba(0,212,232,0.25)" stroke-width="2" fill="none"/>
+  <path d="M328 180L340 160L364 160L376 180L364 200L340 200Z"
+    stroke="rgba(0,212,232,0.25)" stroke-width="2" fill="none"/>
+
+  <!-- Corner accents -->
+  <path d="M256 80L260 92L256 104L252 92Z" fill="rgba(0,212,232,0.4)"/>
+
+  <defs>
+    <linearGradient id="shield-fill" x1="256" y1="28" x2="256" y2="496" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="rgba(0,212,232,0.08)"/>
+      <stop offset="1" stop-color="rgba(0,212,232,0.02)"/>
+    </linearGradient>
+    <linearGradient id="shield-stroke" x1="256" y1="28" x2="256" y2="496" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00d4e8" stop-opacity="0.6"/>
+      <stop offset="0.5" stop-color="#00d4e8" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#00d4e8" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+</svg>

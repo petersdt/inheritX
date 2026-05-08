@@ -1,0 +1,62 @@
+:root {
+  --bg:     #080810;
+  --bg2:    #0c0c18;
+  --bg3:    #0f0f1c;
+  --card:   #101020;
+  --card2:  #14142a;
+  --rim:    #1a1a30;
+  --rim2:   #222240;
+
+  --cyan:      #00d4e8;
+  --cyan-hi:   #33ddf0;
+  --cyan-dim:  rgba(0,212,232,0.10);
+  --cyan-mid:  rgba(0,212,232,0.20);
+  --cyan-glow: rgba(0,212,232,0.45);
+
+  --green:     #00c98a;
+  --green-dim: rgba(0,201,138,0.12);
+
+  --gold:      #f0a020;
+  --gold-dim:  rgba(240,160,32,0.12);
+
+  --purple:    #7c5ce8;
+  --purple-dim:rgba(124,92,232,0.15);
+
+  --red:       #e05050;
+  --red-dim:   rgba(224,80,80,0.12);
+
+  --t1: #ffffff;
+  --t2: #8888aa;
+  --t3: #444466;
+  --t4: #222244;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--t1);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a { text-decoration: none; color: inherit; }
+button { font-family: inherit; }
+input, select, textarea { font-family: inherit; }
+
+code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  background: rgba(0,212,232,0.1);
+  color: var(--cyan);
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-thumb { background: var(--rim2); border-radius: 2px; }
+::-webkit-scrollbar-track { background: transparent; }
